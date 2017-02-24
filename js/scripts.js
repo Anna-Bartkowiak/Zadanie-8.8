@@ -1,15 +1,15 @@
 var text = 'Papugi koszą trawę, unosząc się nad ziemią 15 centymetrów, na czerwonych dywanach.',
-	nowaZmienna = 'Zielone słonie',
-	nowaZmiennaUpperCased = nowaZmienna.toUpperCase();
+	animal = 'Zielone słonie',
+	animalUpperCased = animal.toUpperCase();
 
-console.log(nowaZmiennaUpperCased);
+console.log(animalUpperCased);
 
-var papugiCharsAfter = text.replace('Papugi', 'Animal');
+var papugiCharsAfter = text.replace('Papugi', animal);
 
 console.log(papugiCharsAfter);
 
-console.log(text.length/2);
+console.log(papugiCharsAfter.length/2);
 
-var polowaText = text.substr(0, 44);
+var polowaText = papugiCharsAfter.substr(0, papugiCharsAfter.length/2);
 
 console.log(polowaText);
